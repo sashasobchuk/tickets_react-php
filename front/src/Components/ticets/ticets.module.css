@@ -1,0 +1,75 @@
+
+
+.oneTicket{
+    border: solid 2px orangered;
+    min-height: 100px;
+    margin: 10px;
+    padding: 12px;
+    display: flex;
+}
+.navigation{
+    border: solid 2px blue;
+
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content{
+    flex-grow: 1;
+    border: solid 5px forestgreen;
+    position: relative;
+    justify-content: stretch;
+}
+.time{
+    position: relative;
+    text-align: right;
+    right: 20px;
+    margin-bottom: 4px;
+}
+
+button{
+    background-color: #ff8656; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.24vw;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create:hover{
+    transform: scaleY(1.1);
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: #ff6516; /* Green */
+}
+.oneTicket > div{
+}
+
+.go{
+     border: red solid 3px;
+    justify-self: center;
+}
+.goTo{
+    width: 100%;
+}
+
+div, button,a{
+    font-size: 1.6vw;
+}
+
+
+
+
+
+
+
+
+

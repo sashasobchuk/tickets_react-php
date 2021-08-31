@@ -1,0 +1,100 @@
+
+
+
+
+
+.oneTicket{
+    border: red solid 3px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    font-size: 3vw;
+    text-align: center;
+    padding: 2vw 20vw;
+    border: red solid 3px;
+    width: 100%;
+
+
+}
+.comments{
+    border: red solid 3px;
+    width: 100%;
+
+}
+.comment{
+    border: #b054ff solid 2px;
+    font-size: 1vw;
+    border-radius: 5px;
+    padding: 1vw;
+    margin: 5px;
+    position: relative;
+}
+.deleteComment{
+    color: black;
+    width: 2vw;
+    height: 2vw;
+    text-align: center;
+    font-size:  1.7vw;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.status:hover{
+    transform: scale(1.4);
+    background-color: #ff252d50;
+}
+.deleteComment:hover{
+    color: red;
+    transform: scale(1.2);
+}
+.changeStatus{
+    color: black;
+    width: 10%;
+    height: 30px;
+    text-align: center;
+    font-size:  1.2vw;
+    cursor: pointer;
+    position: absolute;
+    margin-right:-30% ;
+    right: 10%;
+    bottom: 30%;
+}
+
+.navigation{
+    width: 50%;
+    flex-grow: 0.02;
+    border: red solid 3px;
+}
+.makeComment{
+    display: flex;
+    flex-direction: column;
+}
+.inputComment{
+    width: 100%;
+    text-align: center;
+    min-height:40px ;
+}
+
+button{
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

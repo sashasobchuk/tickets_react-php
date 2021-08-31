@@ -1,0 +1,24 @@
+RewriteEngine on
+
+
+
+#всі символи перетворює в index php
+RewriteRule .* index.php?querysystemurl=$0 [QSA,L]
+
+# забороняє лістинг   всім крім індекс
+Options -Indexes
+
+
+
+# закриває прямий дост  уп
+<FilesMatch "^\.(php)$">
+	Deny from all
+</FilesMatch>
+
+# дозволяєм індексу(точці входу)
+<FilesMatch "^index.(php)$">
+	Allow from all
+</FilesMatch>
+
+
+

@@ -1,0 +1,86 @@
+
+
+.FullPaceTicket{
+    position: absolute;
+    width: 100vw;
+    min-height: 90vh;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: red solid 2px;*/
+}
+.tittle{
+    font-weight: bold;
+    font-size: 2vw;
+    color: black;
+    z-index: 2;
+    top:5px;
+
+}
+.makeTicket{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color: #ffce5890;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.makeTicketInput{
+    text-align: center;
+    width: 60%;
+    height: 30%;
+
+}
+
+
+.closePage{
+    color: black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size:  1.7vw;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.closePage:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
